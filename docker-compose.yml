@@ -1,0 +1,9 @@
+services:
+  # Stalker backend service
+  backend:
+    container_name: stalker-backend
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    volumes:
+      - ./backend:/home/stalker/backend

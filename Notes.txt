@@ -1,0 +1,13 @@
+Communicate between Stalker and GCOM using websocket.
+Post request from GCOM will send images.
+Get request from Stalker will get picture file input.
+Stalker will retrieve metadata and find exact location of subject.
+<Autonomous Mode>
+Stalker will run calculations and output back to GCOM camera adjustments.
+GCOM will relay these to ACOM which will execute on the gimbal.
+Map data of coordinates from gimbal will be plotted on map automatically.
+
+Tasks:
+1. Set up websocket between GCOM and Stalker.
+2. Get request to GCOM for image.
+3. Set up position tracking algorithm.

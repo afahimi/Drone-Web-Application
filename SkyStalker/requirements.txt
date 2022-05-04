@@ -1,0 +1,13 @@
+# USE SKYPASTA TO INSTALL OPENCV ON LINUX
+# UNCOMMENT TO INSTALL ON WINDOWS
+# OpenCV Dependencies
+# opencv-python-headless==4.5.4.58
+# opencv-contrib-python==4.5.4.58
+
+# Connectivity Dependencies
+python-socketio==5.5.1
+pyserial==3.5
+
+# AEAC Controls 2022 Dependencies
+odroid_wiringpi==3.8
+Adafruit-GPIO==1.0.3 

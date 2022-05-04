@@ -1,0 +1,4 @@
+Change tracking to a class
+Recieve enabled disabled states
+Update bounding box function, sends new bounding box to tracker
+Call update bounding box to update and send to aircraft (Ground)

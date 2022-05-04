@@ -1,0 +1,3 @@
+[submodule "SkyStalker/aeac_controls_2022"]
+	path = SkyStalker/aeac_controls_2022
+	url = https://gitlab.com/ubcuas/payload/aeac_controls_2022

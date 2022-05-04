@@ -1,0 +1,10 @@
+If you want to make a new test video, simply get the video (example: yourvideo.avi) you want to extract frames from.
+
+Then, using ffmpeg, you can extract frames like so:
+
+(note: 1/1 indicates 1 frame every 1 second. for 10 frames every second, it would be 10/1)
+$ ffmpeg -i yourvideo.avi -r 1/1 $filename%03d.jpg
+
+Done!
+
+Note: Contact Nazaré Neal (@nneal) for media test files.
